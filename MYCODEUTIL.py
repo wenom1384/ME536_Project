@@ -1,4 +1,6 @@
 import numpy as np
+import matplotlib.pyplot as plt
+from numpy.linalg import matrix_rank  as rank
 
 def SVD536(Mn, DebugMode = False):
   '''
