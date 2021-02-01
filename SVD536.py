@@ -1,3 +1,5 @@
+import numpy as np
+
 def SVD536(Mn, DebugMode = False):
   '''
   this function gets a full rank noisy nxd size Matrix and return noise free and possibly lower rank matrix size of nxd
