@@ -1,6 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy.linalg import matrix_rank  as rank
+import PIL
+import io
+from base64 import b64decode, b64encode
 
 def SVD536(Mn, DebugMode = False):
   '''
