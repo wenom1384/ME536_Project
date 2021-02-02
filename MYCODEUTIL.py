@@ -5,6 +5,11 @@ import PIL
 import io
 from base64 import b64decode, b64encode
 
+from IPython.display import display, Javascript
+from google.colab.output import eval_js
+from base64 import b64decode
+from scipy.spatial import distance
+
 def SVD536(Mn, DebugMode = False):
   '''
   this function gets a full rank noisy nxd size Matrix and return noise free and possibly lower rank matrix size of nxd
