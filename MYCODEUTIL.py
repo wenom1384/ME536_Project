@@ -39,6 +39,7 @@ def SVD536(Mn, DebugMode = False):
 
   
   #print (RankApp)
+  RankApp=4
   Mres=np.matmul(U[:,:RankApp],np.matmul(np.diag(Si[:RankApp]),Vt[:RankApp,:]))
   PC=np.matmul(U[:,:RankApp],np.diag(Si[:RankApp]))
   # M_res constructed from reduced matrices.
