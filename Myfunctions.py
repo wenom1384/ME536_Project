@@ -2,6 +2,7 @@ import cv2
 import face_recognition
 import numpy as np
 from scipy.linalg import orth
+from scipy.spatial import distance
 
 
 def myfacedetector(image,ave_list,ave_list_names,PC):
