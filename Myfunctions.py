@@ -1,3 +1,6 @@
+import cv2
+
+
 def myfacedetector(image,ave_list,ave_list_names,PC):
   rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
   boxes = face_recognition.face_locations(rgb,model='hog')
