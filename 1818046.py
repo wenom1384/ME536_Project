@@ -37,10 +37,10 @@ from enum import Enum
 from matplotlib import pyplot as plt
 # %matplotlib inline
 # also import the matrix printing function
-!rm bug_numpy_utils.py
-!wget https://raw.githubusercontent.com/bugrakoku/bug_python_utils/main/bug_numpy_utils.py
-from bug_numpy_utils import MatPrint
-from bug_numpy_utils import MatImshow
+#!rm bug_numpy_utils.py
+#!wget https://raw.githubusercontent.com/bugrakoku/bug_python_utils/main/bug_numpy_utils.py
+#from bug_numpy_utils import MatPrint
+#from bug_numpy_utils import MatImshow
 import time
 print('done with importing necessary stuff')
 
