@@ -145,5 +145,5 @@ def SVD536(Mn, DebugMode = False):
   Mres=np.matmul(U[:,:RankApp],np.matmul(np.diag(Si[:RankApp]),Vt[:RankApp,:]))
   PC=np.matmul(U[:,:RankApp],np.diag(Si[:RankApp]))
   # M_res constructed from reduced matrices.
-  plt.plot(Si,'r*')
+  #plt.plot(Si,'r*')
   return Mres,PC
